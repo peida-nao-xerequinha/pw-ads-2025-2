@@ -1,3 +1,4 @@
+>>teste de commit
 # Forkando e clonando este repositório
 1. Faça _login_ no [GitHub](https://github.com).
 2. Acesse [https://github.com/faustocintra/pw-ads-2025-2](https://github.com/faustocintra/pw-ads-2025-2).
