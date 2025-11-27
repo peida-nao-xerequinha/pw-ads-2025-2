@@ -65,6 +65,15 @@ export default function MainMenu() {
         >
           Listagem de clientes
         </MenuItem>
+
+        <MenuItem 
+          onClick={handleClose}
+          component={Link}
+          to="/sobre" // Rota definida no AppRoutes.jsx
+        >
+          Sobre o Autor
+        </MenuItem>
+        
       </Menu>
     </div>
   );

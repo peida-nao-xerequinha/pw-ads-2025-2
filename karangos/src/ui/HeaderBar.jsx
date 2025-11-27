@@ -9,15 +9,22 @@ import MainMenu from './MainMenu'
 
 export default function HeaderBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" enableColorOnDark>
-        <Toolbar variant="dense">
+    <Box sx={{ width: '100vw' }}>
+      <AppBar 
+        position="static" 
+        enableColorOnDark
+        sx={{ width: '100vw', left: 0, right: 0 }}
+      >
+        <Toolbar 
+          variant="dense"
+          sx={{ justifyContent: 'flex-start', alignItems: 'center' }} 
+        >
           <MainMenu />
           <a href="/">
             <img 
               src={logotipo} 
               alt="Logotipo Karangos" 
-              title="Karangos &bull; Os velhinhos são nossa paixão"
+              title="Karangos • Os velhinhos são nossa paixão"
               style={{ width: '300px' }} 
             />
           </a>
